@@ -1,5 +1,5 @@
 .PHONY: default server client deps fmt clean all release-all assets client-assets server-assets contributors
-export GOPATH:=$(shell pwd)
+#export GOPATH:=$(shell pwd)
 
 BUILDTAGS=debug
 default: all
